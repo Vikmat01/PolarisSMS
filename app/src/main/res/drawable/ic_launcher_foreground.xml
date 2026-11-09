@@ -1,0 +1,34 @@
+<vector xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:aapt="http://schemas.android.com/aapt"
+    android:width="108dp" android:height="108dp"
+    android:viewportWidth="108" android:viewportHeight="108">
+    <!-- Glass speech bubble -->
+    <path
+        android:pathData="M44,30 H64 A18,18 0 0 1 82,48 V56 A18,18 0 0 1 64,74 H42 L31,83 L33,70 A18,18 0 0 1 26,56 V48 A18,18 0 0 1 44,30 Z"
+        android:strokeWidth="1.2">
+        <aapt:attr name="android:fillColor">
+            <gradient android:type="linear" android:startX="26" android:startY="30" android:endX="82" android:endY="84">
+                <item android:offset="0" android:color="#57FFFFFF" />
+                <item android:offset="1" android:color="#14FFFFFF" />
+            </gradient>
+        </aapt:attr>
+        <aapt:attr name="android:strokeColor">
+            <gradient android:type="linear" android:startX="26" android:startY="30" android:endX="82" android:endY="84">
+                <item android:offset="0" android:color="#F2FFFFFF" />
+                <item android:offset="0.5" android:color="#26FFFFFF" />
+                <item android:offset="1" android:color="#99FFFFFF" />
+            </gradient>
+        </aapt:attr>
+    </path>
+    <!-- Polaris, the North Star -->
+    <path android:pathData="M54,36 Q56,50 70,52 Q56,54 54,68 Q52,54 38,52 Q52,50 54,36 Z">
+        <aapt:attr name="android:fillColor">
+            <gradient android:type="linear" android:startX="54" android:startY="36" android:endX="54" android:endY="68">
+                <item android:offset="0" android:color="#FFFFFFFF" />
+                <item android:offset="1" android:color="#FFCCFFE0" />
+            </gradient>
+        </aapt:attr>
+    </path>
+    <path android:fillColor="#D9FFFFFF"
+        android:pathData="M69,35 Q69.5,38.5 73,39 Q69.5,39.5 69,43 Q68.5,39.5 65,39 Q68.5,38.5 69,35 Z" />
+</vector>
